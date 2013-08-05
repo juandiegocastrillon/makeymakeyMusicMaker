@@ -1,0 +1,38 @@
+<!DOCTYPE>
+<html>
+<head>
+	<script src="audioTest.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="body" onmousedown="mouseDown()" onmouseup="mouseUp()" >
+	<p style="color:white; text-align:center;">For use with MaKey MaKey. Press arrow keys, space, or click mouse to trigger sounds. Have fun!</p>
+	<div class="container">	
+	<div class="wrapper">
+	<div class="arrows">
+		<img id="up_arrow" src="data/UpArrow.png" alt="Up Arrow">
+		<img id="up_instr" src="data/hi_hat.png" alt="Hi Hat">
+		<img id="down_arrow" src="data/DownArrow.png" alt="Down Arrow">
+		<img id="down_instr" src="data/kick_drum.png" alt="Drum">
+		<img id="right_arrow" src="data/RightArrow.png" alt="Right Arrow">
+		<img id="right_instr" src="data/snare_drum.png" alt="Snare">
+		<img id="left_arrow" src="data/LeftArrow.png" alt="Left Arrow">
+		<img id="left_instr" src="data/cowbell.png" alt="Cowbell">
+	</div>
+	<div class="circles">
+		<img id="space_arrow" src="data/SpaceArrow.png" alt="Space">
+		<img id="space_instr" src="data/crash.png" alt="Crash">
+		<img id="click" src="data/SpaceArrow.png" alt="Click">
+		<img id="click_instr" src="data/triangle.png" alt="Triangle">
+	</div>
+	<div id="tabs">
+		<img id="left_tab"  src="data/LeftTabPressed.png" alt="Drums">
+		<img id="drums_instr" onclick="drumInstr()" src="data/drums.png">
+		<img id="right_tab"  src="data/RightTab.png" alt="Piano">
+		<img id="piano_instr" onclick="pianoInstr()" src="data/piano.png">
+	</div>
+	</div>
+	</div>
+	<div id="byline">Juan Diego Castrillon</div>
+</body>
+</html>

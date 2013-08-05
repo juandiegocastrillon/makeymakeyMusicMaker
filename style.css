@@ -1,0 +1,159 @@
+body
+{
+	background: black;
+}
+.container
+{
+width: 75%;
+margin-right: auto;
+margin-left: auto;
+top: 10%;
+position: relative;
+}
+.wrapper
+{
+width: 100%;
+background: #ffffde;
+border-radius: 30px;
+padding-bottom: 55.5%;
+}
+.arrows
+{
+width: 45%;
+height: 86%;
+position: absolute;
+left: 5.5%;
+top: 7%;
+}
+
+#up_arrow
+{
+width: 25%;
+height: auto;
+left: 37.5%;
+position: absolute;
+}
+
+#down_arrow
+{
+width: 25%;
+height: auto;
+bottom: 0%;
+position: absolute;
+margin-left: 37.5%;
+}
+#right_arrow
+{
+height: 24.1%;
+width: auto;
+right: 0%;
+top: 37.95%;
+position: absolute;
+}
+#left_arrow
+{
+height: 24.1%;
+width: auto;
+left: 0%;
+top: 37.95%;
+position: absolute;
+}
+.circles
+{
+height: 32.78%;
+width: 40.49%;
+position: absolute;
+right: 5.5%;
+top: 33.61%;
+}
+#click
+{
+height:100%;
+width:auto;
+margin-left:9.35%;
+position:absolute;
+}
+#space_arrow
+{
+height:100%;
+width:auto;
+}
+#up_instr
+{
+width: 25%;
+height: auto;
+left: 37.5%;
+top: 15%;
+position: absolute;
+}
+#down_instr
+{
+width: 25%;
+height: auto;
+bottom: 15%;
+position: absolute;
+margin-left: 37.5%;
+}
+#left_instr
+{
+height: 24.1%;
+width: auto;
+left: 16%;
+top: 37.95%;
+position: absolute;
+}
+#right_instr
+{
+height: 24.1%;
+width: auto;
+right: 16%;
+top: 37.95%;
+position: absolute;
+}
+#space_instr
+{
+position:absolute;
+left:0%;
+height:100%;
+width:auto;
+}
+#click_instr
+{
+height:100%;
+width:auto;
+margin-left:9.35%;
+position:absolute;
+}
+#tabs
+{
+position: absolute;
+bottom: 0%;
+right: 15%;
+width: 33%;
+height: 14.17%;
+}
+#drums_instr, #left_tab
+{
+position:absolute;
+left:0%;
+height:100%;
+width:auto;
+}
+#piano_instr, #right_tab
+{
+position: absolute;
+height:100%;
+width:auto;
+right: 0%;
+}
+#byline
+{
+color: gray;
+margin: 0 auto;
+width: 100%;
+position: fixed;
+bottom: 0;
+padding: 0.3em 0;
+text-align: center;
+}
+
